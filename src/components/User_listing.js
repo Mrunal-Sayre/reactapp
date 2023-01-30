@@ -34,7 +34,7 @@ export default function User_listing() {
             </tr>
             {
                 users.map((val) => {
-                    console.log(val)
+                    // console.log(val)
                     return(
                         <tr>
                             <td>{val.id}</td>
